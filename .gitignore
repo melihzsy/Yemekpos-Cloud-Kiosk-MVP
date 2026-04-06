@@ -1,0 +1,49 @@
+# ------------------------------
+# C# / .NET Core
+# ------------------------------
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+
+# Build / test outputs
+TestResults/
+*.nupkg
+*.snupkg
+artifacts/
+publish/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# ------------------------------
+# Node.js / Next.js
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js build outputs
+.next/
+out/
+
+# Coverage
+coverage/
+
+# Cache files
+.turbo/
+.cache/
+
