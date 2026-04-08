@@ -1,9 +1,12 @@
+using Yemekpos.Siparis.API.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 const string CorsPolicyName = "AllowAll";
 
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
+builder.Services.AddScoped<IMonitoringService, MonitoringService>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(CorsPolicyName, policy =>
